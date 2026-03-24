@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bellMetal" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#fff7d8"/>
+      <stop offset="18%" stop-color="#f5d98a"/>
+      <stop offset="42%" stop-color="#d5a94c"/>
+      <stop offset="68%" stop-color="#b57a27"/>
+      <stop offset="100%" stop-color="#7f4f15"/>
+    </linearGradient>
+    <linearGradient id="bellDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b4c16"/>
+      <stop offset="100%" stop-color="#2e1707"/>
+    </linearGradient>
+    <radialGradient id="highlight" cx="35%" cy="24%" r="55%">
+      <stop offset="0%" stop-color="#fffde8" stop-opacity=".95"/>
+      <stop offset="45%" stop-color="#fff2b0" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="slashRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb5b5"/>
+      <stop offset="14%" stop-color="#ff6b6b"/>
+      <stop offset="50%" stop-color="#d61c1c"/>
+      <stop offset="100%" stop-color="#7e0808"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".33"/>
+    </filter>
+    <filter id="slashShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#3f0000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M256 444c32 0 58-24 62-55H194c4 31 30 55 62 55Z" fill="url(#bellDark)"/>
+    <path d="M366 365H146c13-15 25-42 25-96 0-39 11-73 31-100 19-26 46-45 78-53v-21c0-13-11-24-24-24s-24 11-24 24v4c0 13-11 24-24 24s-24-11-24-24v-4c0-40 32-72 72-72s72 32 72 72v21c32 8 59 27 78 53 20 27 31 61 31 100 0 54 12 81 25 96Z"
+          fill="url(#bellMetal)" stroke="#5a330d" stroke-width="15" stroke-linejoin="round"/>
+    <path d="M312 388c-5 26-28 45-56 45s-51-19-56-45h112Z" fill="#8b551b" opacity=".92"/>
+    <ellipse cx="232" cy="186" rx="72" ry="120" fill="url(#highlight)"/>
+    <path d="M147 365h219" stroke="#f9d78b" stroke-opacity=".45" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#slashShadow)">
+    <path d="M116 132 146 102 396 352 366 382Z" fill="url(#slashRed)" stroke="#ffe0e0" stroke-opacity=".5" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M122 140 144 118 388 362 366 384Z" fill="none" stroke="#6a0505" stroke-width="10" stroke-linecap="round"/>
+    <path d="M130 125 374 369" stroke="#ffd7d7" stroke-opacity=".58" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
