@@ -1,29 +1,40 @@
-# Bama Icons
+# 🔔 Bama Icons
 
-A collection of high-quality, scalable icons for use in custom styling, browser extensions, and automation tools.
+High-quality, scalable icon library for **Bama tools**, browser extensions, and custom website styling.
+
+---
+
+## 👀 Preview
+
+### Notifications
+
+<img src="https://raw.githack.com/billavery56-source/bama-icons/main/notifications/bell-off.svg" width="64">
+
+---
 
 ## 🔥 What This Is
 
-This repository hosts icons (SVG + PNG) that can be used across:
+A centralized icon library designed for:
 
-* Custom CSS (Stylus / Bama Site Styler)
-* Chrome extensions
-* AutoHotkey scripts
-* Web projects
+* 🎨 **Bama Site Styler**
+* 🧩 Chrome Extensions
+* ⚡ AutoHotkey scripts
+* 🌐 Custom website styling
 
-All icons are designed to:
+All icons are:
 
-* Scale cleanly at any size (SVG)
-* Work on both dark and light themes
-* Be directly linkable (no downloads needed)
+* ✅ SVG (crystal clear at any size)
+* ✅ Transparent background
+* ✅ Built for dark & light themes
+* ✅ Direct-link ready (no downloads needed)
 
 ---
 
 ## 🚀 How To Use
 
-### 1. Grab the Direct Link
+### Step 1 — Copy the Raw Link
 
-1. Click on an icon file
+1. Click any icon file
 2. Click **Raw**
 3. Copy the URL
 
@@ -32,13 +43,25 @@ https://raw.githubusercontent.com/billavery56-source/bama-icons/main/notificatio
 
 ---
 
-### 2. (Recommended) Use CDN Version
+### Step 2 — Convert to CDN (Recommended)
 
-Convert the link to:
+Replace:
 
+```
+raw.githubusercontent.com
+```
+
+With:
+
+```
+raw.githack.com
+```
+
+Final link:
+
+```
 https://raw.githack.com/billavery56-source/bama-icons/main/notifications/bell-off.svg
-
-This improves loading speed and reliability.
+```
 
 ---
 
@@ -62,7 +85,7 @@ background-repeat: no-repeat;
 
 ---
 
-### AutoHotkey (Example)
+### AutoHotkey
 
 ```ahk
 iconUrl := "https://raw.githack.com/billavery56-source/bama-icons/main/notifications/bell-off.svg"
@@ -73,41 +96,37 @@ iconUrl := "https://raw.githack.com/billavery56-source/bama-icons/main/notificat
 ## 📁 Folder Structure
 
 ```
-notifications/   → alert, bell, mute icons  
-ui/              → buttons, checkmarks, close icons  
+notifications/
+  bell-off.svg
+  bell-on.svg
+
+ui/
+  check.svg
+  close.svg
 ```
-
----
-
-## 🧠 Notes
-
-* SVG is preferred for best quality and scaling
-* PNG versions may be included for compatibility
-* All icons use transparent backgrounds
 
 ---
 
 ## 🔧 Updating Icons
 
-To update an icon:
+Replace the file with the same name and commit.
 
-1. Upload a new version with the same filename
-2. Commit changes
-
-The link stays the same — updates instantly everywhere it's used.
+✅ Links stay the same
+✅ Updates instantly everywhere
 
 ---
 
-## ⚠️ Important
+## ⚠️ Notes
 
-* This repo is public — all files are accessible by anyone
-* Do not upload private or sensitive assets
+* SVG is preferred for best scaling
+* PNG versions may be added for compatibility
+* All assets are public
 
 ---
 
-## 💪 Bama Projects
+## 💪 Bama Ecosystem
 
-Part of the **Bama** tool ecosystem:
+Part of the growing **Bama toolset**:
 
 * Bama Site Styler
 * Bama Extension Builder
@@ -115,16 +134,6 @@ Part of the **Bama** tool ecosystem:
 
 ---
 
-## 👍 Contributions
-
-You can add new icons anytime:
-
-* Keep naming consistent
-* Use clear, descriptive filenames
-* Prefer SVG format
-
----
-
 ## 📜 License
 
-Free to use for personal and project use.
+Free for personal and project use.
