@@ -1,0 +1,18 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="heartRed" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#ff8a8a"/>
+      <stop offset="40%" stop-color="#ff2e2e"/>
+      <stop offset="100%" stop-color="#8a0000"/>
+    </radialGradient>
+    <radialGradient id="shine" cx="25%" cy="20%" r="30%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <path d="M32 56s-18-11-22-22c-4-10 3-20 14-20 6 0 8 3 8 3s2-3 8-3c11 0 18 10 14 20-4 11-22 22-22 22z"
+        fill="url(#heartRed)" stroke="#5a0000" stroke-width="2"/>
+
+  <ellipse cx="26" cy="20" rx="10" ry="6" fill="url(#shine)"/>
+</svg>
