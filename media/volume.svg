@@ -1,0 +1,18 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="redVol" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6a6a"/>
+      <stop offset="40%" stop-color="#ff1f1f"/>
+      <stop offset="100%" stop-color="#7a0000"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="14,26 24,26 36,16 36,48 24,38 14,38"
+           fill="url(#redVol)" stroke="#4a0000" stroke-width="2"/>
+
+  <path d="M42 24 Q52 32 42 40"
+        fill="none" stroke="#ff3b3b" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M46 20 Q60 32 46 44"
+        fill="none" stroke="#ff6a6a" stroke-width="2" stroke-linecap="round"/>
+</svg>
